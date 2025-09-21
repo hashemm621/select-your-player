@@ -1,0 +1,202 @@
+[
+  {
+    "player-image": "https://i.ibb.co.com/jZzXwtxK/sakib.jpg",
+    "player-name": "Shakib Al Hasan",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "batting-style": "Left-handed",
+    "bowling-style": "Slow left-arm orthodox",
+    "rating": 9.8,
+    "price": 200000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/Nnrbrrf2/images.webp",
+    "player-name": "Litton Das",
+    "player-country": "Bangladesh",
+    "playing-role": "Wicketkeeper-Batter",
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "rating": 8.7,
+    "price": 95000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/pCcF8wd/download.jpg",
+    "player-name": "Mahmudullah Riyad",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm off break",
+    "rating": 8.4,
+    "price": 80000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/PZr2pB7r/images.jpg",
+    "player-name": "Mustafizur Rahman",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "batting-style": "Left-handed",
+    "bowling-style": "Left-arm fast-medium",
+    "rating": 9.3,
+    "price": 110000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/7t2hPDtS/download-1.jpg",
+    "player-name": "Tamim Iqbal",
+    "player-country": "Bangladesh",
+    "playing-role": "Batter",
+    "batting-style": "Left-handed",
+    "bowling-style": "N/A",
+    "rating": 9.0,
+    "price": 105000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/7dDLGkpB/images-1.jpg",
+    "player-name": "Mushfiqur Rahim",
+    "player-country": "Bangladesh",
+    "playing-role": "Wicketkeeper-Batter",
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "rating": 8.9,
+    "price": 98000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/v6gPCXgw/58314.webp",
+    "player-name": "Taskin Ahmed",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm fast",
+    "rating": 8.5,
+    "price": 85000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/8g4VnW2C/download-2.jpg",
+    "player-name": "Mehidy Hasan Miraz",
+    "player-country": "Bangladesh",
+    "playing-role": "All-Rounder",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm off break",
+    "rating": 8.6,
+    "price": 92000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/kgf6Rgzb/2983-camedia.png",
+    "player-name": "Shoriful Islam",
+    "player-country": "Bangladesh",
+    "playing-role": "Bowler",
+    "batting-style": "Left-handed",
+    "bowling-style": "Left-arm fast-medium",
+    "rating": 8.2,
+    "price": 78000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/TBRYpLBr/63872.webp",
+    "player-name": "Najmul Hossain Shanto",
+    "player-country": "Bangladesh",
+    "playing-role": "Batter",
+    "batting-style": "Left-handed",
+    "bowling-style": "N/A",
+    "rating": 8.3,
+    "price": 81000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/XfQT30Lc/download-3.jpg",
+    "player-name": "Andre Russell",
+    "player-country": "West Indies",
+    "playing-role": "All-Rounder",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm fast",
+    "rating": 9.7,
+    "price": 175000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/bMQnSwCT/81-camedia.png",
+    "player-name": "Dawid Malan",
+    "player-country": "England",
+    "playing-role": "Batter",
+    "batting-style": "Left-handed",
+    "bowling-style": "N/A",
+    "rating": 9.1,
+    "price": 115000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/xtc9hLQz/download-4.jpg",
+    "player-name": "Mujeeb Ur Rahman",
+    "player-country": "Afghanistan",
+    "playing-role": "Bowler",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm off break",
+    "rating": 8.8,
+    "price": 100000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/p615YM9C/download-5.jpg",
+    "player-name": "Phil Salt",
+    "player-country": "England",
+    "playing-role": "Wicketkeeper-Batter",
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "rating": 9.2,
+    "price": 125000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/2mfgC3D/download-6.jpg",
+    "player-name": "Azam Khan",
+    "player-country": "Pakistan",
+    "playing-role": "Wicketkeeper-Batter",
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "rating": 8.5,
+    "price": 88000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/PZPLfGx9/download-7.jpg",
+    "player-name": "Daryl Mitchell",
+    "player-country": "New Zealand",
+    "playing-role": "All-Rounder",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm medium",
+    "rating": 8.6,
+    "price": 90000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/211Wxqjf/download-8.jpg",
+    "player-name": "Kusal Mendis",
+    "player-country": "Sri Lanka",
+    "playing-role": "Batter",
+    "batting-style": "Right-handed",
+    "bowling-style": "N/A",
+    "rating": 8.9,
+    "price": 97000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/Xx2sKzrr/download-9.jpg",
+    "player-name": "Rashid Khan",
+    "player-country": "Afghanistan",
+    "playing-role": "Bowler",
+    "batting-style": "Right-handed",
+    "bowling-style": "Right-arm leg break",
+    "rating": 9.9,
+    "price": 190000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/TDrMmTp5/download-10.jpg",
+    "player-name": "Rilee Rossouw",
+    "player-country": "South Africa",
+    "playing-role": "Batter",
+    "batting-style": "Left-handed",
+    "bowling-style": "N/A",
+    "rating": 8.4,
+    "price": 83000
+  },
+  {
+    "player-image": "https://i.ibb.co.com/8LzGnXn4/download-11.jpg",
+    "player-name": "Wahab Riaz",
+    "player-country": "Pakistan",
+    "playing-role": "Bowler",
+    "batting-style": "Right-handed",
+    "bowling-style": "Left-arm fast",
+    "rating": 8.1,
+    "price": 75000
+  }
+]
