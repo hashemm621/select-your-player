@@ -5,6 +5,7 @@ import SelectedPlayers from "./Components/SelectedPlayers/SelectedPlayers";
 import Navbar from "./Components/Navbar/Navbar";
 import { ToastContainer,Slide } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import Newsletter from "./Components/NewsLatter/NewsLatter";
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json");
@@ -28,7 +29,7 @@ function App() {
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
 
-      <div className="max-w-[1200px] mx-auto flex justify-between items-center">
+      <div className="max-w-[1200px] mx-auto flex justify-between items-center px-4">
         <h1 className="font-bold text-2xl">
           {toggle
             ? "Available Players"
@@ -68,8 +69,15 @@ function App() {
           ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers removePlayer={removePlayer} purchasedPlayers={purchasedPlayers}></SelectedPlayers>
+        <SelectedPlayers setToggle={setToggle} removePlayer={removePlayer} purchasedPlayers={purchasedPlayers}></SelectedPlayers>
       )}
+        <div>
+          <Newsletter></Newsletter>
+        </div>
+
+
+
+
       <ToastContainer
         position="top-right"
         autoClose={2000}

@@ -8,7 +8,7 @@ const SelectedCard = ({player,removePlayer}) => {
     }
 
   return (
-    <div className="mt-4 max-w-[1200px] mx-auto">
+    <div className="mt-4 max-w-[1200px] mx-auto px-4">
       <div className="flex justify-between items-center shadow p-3">
         <div className="flex items-center">
           <img
