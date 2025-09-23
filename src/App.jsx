@@ -3,9 +3,10 @@ import { Suspense, useState } from "react";
 import AvailablePlayers from "./Components/AvailablePlayers/AvailablePlayers";
 import SelectedPlayers from "./Components/SelectedPlayers/SelectedPlayers";
 import Navbar from "./Components/Navbar/Navbar";
-import { ToastContainer,Slide } from 'react-toastify';
+import { ToastContainer, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Newsletter from "./Components/NewsLatter/NewsLatter";
+import Footer from "./Components/footer/footer";
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json");
@@ -19,11 +20,13 @@ function App() {
   const [purchasedPlayers, setPurchasedPlayers] = useState([]);
 
   const removePlayer = (delPlayer) => {
-    const filteredData = purchasedPlayers.filter(plyName => plyName['player-name']!== delPlayer['player-name'])
+    const filteredData = purchasedPlayers.filter(
+      (plyName) => plyName["player-name"] !== delPlayer["player-name"]
+    );
 
-    setPurchasedPlayers(filteredData)
-    setAvailableBalance(availableBalance + delPlayer.price)
-  }
+    setPurchasedPlayers(filteredData);
+    setAvailableBalance(availableBalance + delPlayer.price);
+  };
 
   return (
     <>
@@ -36,7 +39,7 @@ function App() {
             : `Selected Players (${purchasedPlayers.length}/12)`}
         </h1>
 
-        <div className="font-semibold">
+        <div className="font-semibold flex">
           <button
             onClick={() => setToggle(true)}
             className={`border-r-0 rounded-l-2xl px-5 py-3 border-1 border-gray-400 ${
@@ -69,19 +72,21 @@ function App() {
           ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers setToggle={setToggle} removePlayer={removePlayer} purchasedPlayers={purchasedPlayers}></SelectedPlayers>
+        <SelectedPlayers
+          setToggle={setToggle}
+          removePlayer={removePlayer}
+          purchasedPlayers={purchasedPlayers}
+        ></SelectedPlayers>
       )}
-        <div>
-          <Newsletter></Newsletter>
-        </div>
-
-
-
+      <div>
+        <Newsletter></Newsletter>
+        <Footer></Footer>
+      </div>
 
       <ToastContainer
         position="top-right"
         autoClose={2000}
-        transition={Slide}   // safe transition
+        transition={Slide} // safe transition
         theme="colored"
       />
     </>

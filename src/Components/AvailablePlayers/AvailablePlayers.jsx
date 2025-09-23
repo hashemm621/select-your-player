@@ -12,7 +12,7 @@ const AvailablePlayers = ({
   const playerData = use(playersPromise);
 
   return (
-    <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-4 mb-[200px]">
+    <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-4 mb-[50px]">
       {playerData.map((player) => (
         <PlayerCard
           key={player["player-name"]}

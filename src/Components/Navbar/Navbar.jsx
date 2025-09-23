@@ -1,8 +1,8 @@
 import React from "react";
-import navImg from "../../assets/logo.png"
-import coin from "../../assets/Currency.png"
+import navImg from "../../assets/logo.png";
+import coin from "../../assets/Currency.png";
 
-const Navbar = ({availableBalance}) => {
+const Navbar = ({ availableBalance }) => {
   return (
     <div className="navbar max-w-[1200px] mx-auto px-4">
       <div className="flex-1">
@@ -15,7 +15,6 @@ const Navbar = ({availableBalance}) => {
           <img src={coin} alt="" />
         </span>
         <span> {availableBalance}</span>
-        
       </div>
     </div>
   );

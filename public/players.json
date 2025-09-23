@@ -80,26 +80,6 @@
     "price": 92000
   },
   {
-    "player-image": "https://i.ibb.co.com/kgf6Rgzb/2983-camedia.png",
-    "player-name": "Shoriful Islam",
-    "player-country": "Bangladesh",
-    "playing-role": "Bowler",
-    "batting-style": "Left-handed",
-    "bowling-style": "Left-arm fast-medium",
-    "rating": 8.2,
-    "price": 78000
-  },
-  {
-    "player-image": "https://i.ibb.co.com/TBRYpLBr/63872.webp",
-    "player-name": "Najmul Hossain Shanto",
-    "player-country": "Bangladesh",
-    "playing-role": "Batter",
-    "batting-style": "Left-handed",
-    "bowling-style": "N/A",
-    "rating": 8.3,
-    "price": 81000
-  },
-  {
     "player-image": "https://i.ibb.co.com/XfQT30Lc/download-3.jpg",
     "player-name": "Andre Russell",
     "player-country": "West Indies",
